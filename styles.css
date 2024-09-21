@@ -79,6 +79,7 @@ a {
 .container {
     display: flex;
     flex-direction: column;
+    max-width: 100%;   
     
 }
 
@@ -155,6 +156,8 @@ a {
     font-size: 18px;
 
 }
+
+
 
 * {
     outline: 2px solid red;
