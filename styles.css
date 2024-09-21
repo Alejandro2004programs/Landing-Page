@@ -131,7 +131,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 32px 64px;
-
+    margin: 0;
 }
 
 .quote {
@@ -145,6 +145,14 @@ a {
 
 .name {
     display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 300px;
+    font-size: 18px;
 
 }
 
