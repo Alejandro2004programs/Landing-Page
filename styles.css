@@ -142,8 +142,14 @@ a, .subtext {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
-    
+}
+
+.section3subContainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    margin: 0 300px;
+    gap: 32px;
 }
 
 .quote {
@@ -157,16 +163,64 @@ a, .subtext {
     font-size: 18px;
     font-weight: 900;
     color: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 128px;
 }
 
 
 /* Section 4: */
 
+.section4Title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
 
+.section4Subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section4Button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.callToAction {
+    background-color: #3882F6;
+    margin: 150px 200px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
 
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    height: 100px;
+    font-size: 18px;
+    margin: 0;
 }
 
